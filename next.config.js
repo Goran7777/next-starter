@@ -3,7 +3,9 @@ const withSass = require('@zeit/next-sass');
 module.exports = {
   reactStrictMode: true,
 };
-
+module.exports = {
+  swcMinify: true,
+};
 module.exports = withSass({
   cssModules: true,
 });
